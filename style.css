@@ -1,0 +1,132 @@
+.container {
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(12* 1fr);
+}
+
+.cont1 {
+    padding: 2% 20% 10px 20%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 10px;
+    border-radius: 3px;
+    grid-auto-rows: 15px;
+}
+
+.head {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 10;
+}
+
+.icons {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 10;
+    grid-column-end: 12;
+}
+
+.name {
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 50px;
+    padding: auto;
+}
+
+.about {
+    grid-row-start: 6;
+    grid-row-end: 9;
+    padding: auto;
+}
+
+.button {
+    grid-row-start: 9;
+    padding:30px;
+    grid-row-end: 12;
+    text-align:inherit;
+}
+button{
+    text-align: center;
+    border-radius: 5px;
+}
+.image{
+    grid-row-start: 3;
+    grid-row-end: 12;
+    grid-column-start: 2;
+    grid-column-end: 10;
+    font-size: 50px;
+ 
+}
+img{
+    height: 250px;
+    border-radius: 15px;
+}
+.cont3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0% 20% 0% 20%;
+    grid-gap: 10px;
+    border-radius: 3px;
+    grid-auto-rows: 15px;
+}
+.skill{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.about2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    overflow: hidden;
+}
+.scale{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 8;
+}
+.foot{
+    padding: 2% 20% 2% 20%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+    border-radius: 3px;
+    grid-auto-rows: 25px;
+}
+.welcome,.lic{
+
+    text-align: cente;
+}
+.pad1{
+    padding: 10px;
+    color: black;
+}
+.pad1:hover{
+    color: chartreuse;
+}
+.pad2{
+    padding: 5px;
+    color: black;
+}
+.pad2:hover{
+    color: chartreuse;
+}
+img{
+    float: right;
+}
+.skill{
+    text-align: center;
+}
+.about2{
+    padding: 5px;
+}
+.img2{
+    height: 115px;
+    width: 400px;
+}
